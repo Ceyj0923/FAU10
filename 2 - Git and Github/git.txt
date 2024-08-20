@@ -1,0 +1,43 @@
+- Check the version of git
+git --version
+
+- Configuring Git
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name
+git config user.email
+
+- Initialize a Repository
+git init
+
+- Check the status of the files and folders
+git status
+
+- Add the files into the staging area
+git add .
+
+- Create a commit 
+git commit -m "This is the description."
+
+- View the commit history
+git log
+
+- BRANCHING
+
+- List all of the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git checkout [branch-name]
+git switch [branch-name]
+
+- Merging 
+
+-merge a branch to another branch
+git merge [branch-name]
+
+- Delete Branch
+git branch -d [branch-name]
